@@ -9,6 +9,6 @@ export default defineConfig(({ mode }) => ({
     alias: {
       '@': path.resolve(__dirname, './'),
     },
-    base: mode === 'production' ? '/your-repo-name/' : '/',
+    base: mode === 'production' ? '/task-manager/' : '/',
   },
 }));
